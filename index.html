@@ -12,8 +12,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-    <script type="module" crossorigin src="/assets/index-B8xvM098.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-BADnEoX7.css">
+    <script type="module" crossorigin src="/assets/index-gKJU8lyB.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-D6xzap49.css">
   </head>
   <body>
     <section class="main">
@@ -30,7 +30,8 @@
           Новейший проект среди
           GTA V RP серверов
         </h2>
-        <a class="btn" href="https://forms.gle/cedjYYxUDJSU83B5A" target="_blank">ЗАПИСЬ НА АЛЬФА-ТЕСТ</a>
+        <button class="main__test-btn btn show-popup-trigger">ЗАПИСЬ НА АЛЬФА-ТЕСТ</button>
+        <a class="btn btn_secondary" href="https://forms.gle/cedjYYxUDJSU83B5A" target="_blank">СКАЧАТЬ ЛАУНЧЕР</a>
       </div>
     </section>
     <section class="extraction">
@@ -129,14 +130,15 @@
       <div class="road-map-section__inner">
         <h4 class="road-map-section__title title-2">ROAD_MAP</h4>
         <div class="road-map hidden">
-          <div class="road-map__line" style="--val: 2">
+          <div class="road-map__line" style="--val: 3">
             <div class="road-map__progress"></div>
             <div class="road-map__circle-step road-map__circle-step_active" style="--i: 0"></div>
             <div class="road-map__circle-step road-map__circle-step_active" style="--i: 1"></div>
-            <div class="road-map__circle-step" style="--i: 2"></div>
+            <div class="road-map__circle-step road-map__circle-step_active" style="--i: 2"></div>
             <div class="road-map__circle-step" style="--i: 3"></div>
             <div class="road-map__circle-step" style="--i: 4"></div>
             <div class="road-map__circle-step" style="--i: 5"></div>
+            <div class="road-map__circle-step" style="--i: 6"></div>
             
             <div class="road-map__step-label road-map__step-label_complete" style="--i: 0">
               <div class="road-map__step-label-icon road-map__step-label-icon_start"></div>
@@ -145,26 +147,33 @@
                 разработки
               </div>
             </div>
-            <div class="road-map__step-label road-map__step-label_active" style="--i: 1">
+            <div class="road-map__step-label road-map__step-label_complete" style="--i: 1">
               <div class="road-map__step-label-icon road-map__step-label-icon_alpha"></div>
               <div class="road-map__step-label-text">
-                Закрытое
+                Первое
                 альфа-тестирование
               </div>
             </div>
-            <div class="road-map__step-label" style="--i: 2">
+            <div class="road-map__step-label road-map__step-label_active" style="--i: 2">
+              <div class="road-map__step-label-icon road-map__step-label-icon_beta"></div>
+              <div class="road-map__step-label-text">
+                Второе
+                альфа-тестирование
+              </div>
+            </div>
+            <div class="road-map__step-label" style="--i: 3">
               <div class="road-map__step-label-icon road-map__step-label-icon_beta"></div>
               <div class="road-map__step-label-text">
                 Бета-тестирование
               </div>
             </div>
-            <div class="road-map__step-label" style="--i: 3">
+            <div class="road-map__step-label" style="--i: 4">
               <div class="road-map__step-label-icon road-map__step-label-icon_release"></div>
               <div class="road-map__step-label-text">
                 Релиз MVP
               </div>
             </div>
-            <div class="road-map__step-label" style="--i: 4">
+            <div class="road-map__step-label" style="--i: 5">
               <div class="road-map__step-label-icon road-map__step-label-icon_up-system "></div>
               <div class="road-map__step-label-text">
                 Добавление
@@ -172,7 +181,7 @@
                 прокачки семей
               </div>
             </div>
-            <div class="road-map__step-label" style="--i: 5">
+            <div class="road-map__step-label" style="--i: 6">
               <div class="road-map__step-label-icon road-map__step-label-icon_updates"></div>
               <div class="road-map__step-label-text">
                 Дальнейшая
@@ -187,15 +196,41 @@
     <section class="application">
       <div class="application__top"></div>
       <div class="application__inner">
-        <h4 class="title-1 application__title">Альфа-тест</h4>
-        <p class="text-4">
-          Мы рады объявить о подготовке к <span class="text-bold">альфа-тестированию</span>, которое пройдет уже совсем скоро!
+        <h4 class="title-1 application__title">Второе альфа-тестирование</h4>
+        <p class="application__text text-4">
+          Недавно мы успешно завершили наше <span class="text-bold color-orange">первое альфа-тестирование</span>, на котором показали игрокам уникальность нашего проекта.
           <br><br>
-          Стань частью <span class="text-bold">истории новейшего GTA V RP</span> проекта и получи <span class="text-bold">уникальные бонусы</span> за свой вклад в наше развитие.
+          А сейчас, мы готовы сообщить о активной подготовке ко второму альфа-тесту, где мы проведем дополнительную аналитику нашего сервера, чтобы подготовиться к MVP релизу.
+          <br><br>
+          Станьте частью истории уникального GTA V RP проекта!
         </p>
-        <a class="btn application__btn" href="https://forms.gle/cedjYYxUDJSU83B5A" target="_blank">ЗАПИСЬ НА АЛЬФА-ТЕСТ</a>
       </div>
     </section>
+    <section class="alpha">
+      <div class="alpha__inner">
+        <h4 class="title-1 alpha__title">Как стать участником альфа-теста</h4>
+        <ul class="alpha__list text-4">
+          <li class="text-4 alpha__list-item">Получить доступ к тестированию через форму по кнопке ниже.</li>
+          <li class="text-4 alpha__list-item">Установить лаунчер BlackSantos RP.</li>
+          <li class="text-4 alpha__list-item">Ожидать информацию о датах проведения тестирования в наших
+            социальных сетях и в письме, которое придет к тебе на почту.</li>
+        </ul>
+        <div class="alpha__btn-panel">
+          <button class="btn show-popup-trigger">Запись на тест</button>
+          <button class="btn btn_secondary">СКАЧАТЬ ЛАУНЧЕР</button>
+        </div>
+      </div>
+    </section>
+    <div class="popup">
+      <div class="popup__bg"></div>
+      <div class="popup__inner">
+        <form class="application-form">
+          <h5 class="application-form__title">ЗАЯВКА НА ТЕСТ</h5>
+          <input class="application-form__input" type="email">
+          <button class="btn btn_secondary application-form__btn" type="submit">Отправить заявку</button>
+        </form>
+      </div>
+    </div>
     <section class="author">
       <span class="author__left">
         хотим предложить тебе стать частью нашей семьи, 
